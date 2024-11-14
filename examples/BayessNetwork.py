@@ -1,5 +1,5 @@
-from my_library.decision_making import Variable, Factor, BayesianNetwork
-from my_library.visualization import plot_bayesian_network
+from bayesnet.decision_making import Variable, Factor, BayesianNetwork
+from bayesnet.visualization import plot_bayesian_network
 
 X = Variable('x', 2)
 Y = Variable('y', 2)
